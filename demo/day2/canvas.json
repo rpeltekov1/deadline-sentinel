@@ -1,0 +1,20 @@
+{
+  "captured": "2026-11-18T07:00:00-08:00",
+  "assignments": [
+    {"id": "541-p4",  "course": "CSC 541", "name": "Project 4: Virtual Memory Manager", "due_at": "2026-11-23T23:59:00-08:00"},
+    {"id": "541-fp",  "course": "CSC 541", "name": "Final Presentation",                "due_at": "2026-12-08T17:30:00-08:00"},
+    {"id": "401-q11", "course": "CSC 401", "name": "Chapter 11 Quiz",                   "due_at": "2026-12-01T23:59:00-08:00"},
+    {"id": "401-p4",  "course": "CSC 401", "name": "Project 4: Huffman Coding",         "due_at": "2026-12-02T23:59:00-08:00"},
+    {"id": "581-fr",  "course": "CSC 581", "name": "Final Project Report",              "due_at": "2026-11-30T17:30:00-08:00"},
+    {"id": "500-fp",  "course": "CSC 500", "name": "Final Paper",                       "due_at": "2026-12-12T23:59:00-08:00"},
+    {"id": "500-ps",  "course": "CSC 500", "name": "Final Presentation Slides",         "due_at": "2026-12-05T09:00:00-08:00"}
+  ],
+  "announcements": [
+    {"id": "9001", "course": "CSC 541", "title": "Project 4 posted",
+     "message": "<p>Project 4 is posted. Project 4 is due Tuesday, November 24 at 11:59 PM. No late submissions.</p>",
+     "posted_at": "2026-11-12T10:05:00-08:00"},
+    {"id": "9002", "course": "CSC 401", "title": "Quiz schedule",
+     "message": "<p>Heads up: the Chapter 11 quiz will open next Tuesday and must be completed before class.</p>",
+     "posted_at": "2026-11-17T21:10:00-08:00"}
+  ]
+}
