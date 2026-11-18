@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1280" height="720" fill="#fff"/>
+  <text x="40" y="58" font-size="34" font-weight="700">Deadline Sentinel: architecture</text>
+  <text x="40" y="92" font-size="18">Read-only. Never submits work, edits Canvas or sends mail.</text>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z"/></marker></defs>
+  <g stroke="#000" stroke-width="3" fill="#fff">
+    <rect x="40" y="140" width="230" height="300"/>
+    <rect x="330" y="140" width="230" height="300"/>
+    <rect x="620" y="140" width="230" height="300"/>
+    <rect x="910" y="140" width="330" height="300"/>
+    <rect x="330" y="520" width="520" height="150"/>
+    <rect x="910" y="520" width="330" height="150"/>
+  </g>
+  <g stroke="#000" stroke-width="3" marker-end="url(#a)">
+    <line x1="270" y1="290" x2="326" y2="290"/>
+    <line x1="560" y1="290" x2="616" y2="290"/>
+    <line x1="850" y1="290" x2="906" y2="290"/>
+    <line x1="1075" y1="444" x2="1075" y2="516"/>
+    <line x1="590" y1="516" x2="590" y2="444"/>
+    <line x1="850" y1="595" x2="906" y2="595"/>
+  </g>
+  <g font-size="22" font-weight="700">
+    <text x="58" y="178">1 Sources</text><text x="348" y="178">2 Extract</text>
+    <text x="638" y="178">3 Reconcile</text><text x="928" y="178">4 Plan and brief</text>
+    <text x="348" y="558">watsonx Orchestrate agent</text><text x="928" y="558">Student</text>
+  </g>
+  <g font-size="17">
+    <text x="58" y="215">Canvas assignments</text><text x="58" y="242">Canvas announcements</text>
+    <text x="58" y="269">University e-mail</text><text x="58" y="310">GET requests only;</text>
+    <text x="58" y="334">token in an env var</text>
+    <text x="348" y="215">Dates and item names</text><text x="348" y="242">from every message</text>
+    <text x="348" y="283">Rules, or watsonx.ai</text><text x="348" y="307">Granite (falls back</text>
+    <text x="348" y="331">to rules on error)</text>
+    <text x="348" y="372">Keeps the source</text><text x="348" y="396">sentence and how a</text>
+    <text x="348" y="420">relative date was read</text>
+    <text x="638" y="215">vs yesterday: moved,</text><text x="638" y="242">new, removed</text>
+    <text x="638" y="283">vs each other:</text><text x="638" y="307">conflict, plan on the</text>
+    <text x="638" y="331">EARLIER date, ask the</text><text x="638" y="355">student to confirm</text>
+    <text x="638" y="396">Message-only dates</text><text x="638" y="420">become new items</text>
+    <text x="928" y="215">Work blocks, earliest deadline</text><text x="928" y="242">first, around lectures + buffer,</text>
+    <text x="928" y="269">daily cap, finish a day early</text>
+    <text x="928" y="310">At risk if it cannot fit</text>
+    <text x="928" y="351">Outputs: morning brief (text,</text><text x="928" y="375">HTML), week.ics for the</text>
+    <text x="928" y="399">calendar, plan.json</text>
+    <text x="348" y="595">Tools: get_morning_brief, get_changes,</text>
+    <text x="348" y="622">get_plan_for_day (all read-only)</text>
+    <text x="348" y="649">Instructions: quote evidence, never invent dates</text>
+    <text x="600" y="490" font-size="16">runs the pipeline</text>
+    <text x="928" y="595">Asks in chat, reads the brief,</text><text x="928" y="622">confirms conflicts with the</text>
+    <text x="928" y="649">instructor, submits own work</text>
+  </g>
+</svg>
