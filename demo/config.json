@@ -1,0 +1,17 @@
+{
+  "timezone": "America/Los_Angeles",
+  "workday_start": "07:00",
+  "workday_end": "20:00",
+  "lecture_buffer_minutes": 60,
+  "block_max_hours": 2,
+  "daily_cap_hours": 6,
+  "finish_early_hours": 24,
+  "hours": {"project": 6, "quiz": 1.5, "report": 5, "paper": 8, "presentation": 4, "assignment": 2},
+  "lectures": [
+    {"course": "CSC 581", "days": ["Mon", "Wed"], "start": "17:30", "end": "18:45"},
+    {"course": "CSC 401", "days": ["Tue", "Thu"], "start": "14:30", "end": "15:45"},
+    {"course": "CSC 541", "days": ["Tue"], "start": "17:30", "end": "20:15"}
+  ],
+  "canvas": {"base_url": "https://canvas.csudh.edu", "token_env": "CANVAS_TOKEN"},
+  "mail_dir": ""
+}
